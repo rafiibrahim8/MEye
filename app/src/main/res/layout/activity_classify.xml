@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <ImageView
+        android:id="@+id/imageToView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".8"
+        android:src="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cat"
+        android:textColor="#000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/confidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confidence:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/closeConItem"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item with close confidence: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/conItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/conItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/conItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item 3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000"
+        android:layout_marginStart="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Camera Preview -->
+    <com.wonderkiln.camerakit.CameraView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:id="@+id/camera"/>
+    <!-- /End Camera Preview -->
+
+    <!-- Overlay -->
+    <RelativeLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/btnClassify"
+            android:src="@drawable/camera_icon"
+            android:contentDescription="Capture" />
+
+    </RelativeLayout>
+    <!-- /End Overlay -->
+
+</RelativeLayout>
