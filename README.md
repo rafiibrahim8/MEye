@@ -7,6 +7,7 @@
 MEye is a simple object classification app for android using Tensorflow lite. 
 
 # GETTING STARTED
+This project can be easily build using Android Studio
 
 [License-shield]: https://img.shields.io/github/license/rafiibrahim8/MEye
 [License-url]: https://github.com/rafiibrahim8/MEye/blob/main/LICENSE
